@@ -35,6 +35,7 @@ This site template is a commercial product and is licensed under the [Tailwind U
 ## Learn more
 
 
+
 To learn more about the technologies used in this site template, see the following resources:
 
 - [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
