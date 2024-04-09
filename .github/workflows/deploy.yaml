@@ -22,4 +22,4 @@ jobs:
         chmod 644 ~/.ssh/known_hosts
 
     - name: Deploy to Server
-      run: rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete ./out ubuntu@xdamr.icu:/home/ubuntu/out
+      run: rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete ./ ubuntu@xdamr.icu:/home/ubuntu/out
