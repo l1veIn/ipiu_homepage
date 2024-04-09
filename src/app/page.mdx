@@ -1,0 +1,43 @@
+import { Guides } from '@/components/Guides'
+import { Resources } from '@/components/Resources'
+import { HeroPattern } from '@/components/HeroPattern'
+
+export const metadata = {
+  title: '软件技术分享',
+  description:
+    'Learn everything there is to know about the Study and Party into your life.',
+}
+
+export const sections = [
+  { title: '说明', id: 'guides' },
+  { title: '资源', id: 'resources' },
+]
+
+<HeroPattern />
+
+# 实验室手册
+
+使用IPIU实验室算力设备须知。 {{ className: 'lead' }}
+
+<div className="not-prose mb-16 mt-6 flex gap-3">
+  <Button href="/quickstart" arrow="right">
+    <>快速开始</>
+  </Button>
+  <Button href="/sdks" variant="outline">
+    <>查看详情</>
+  </Button>
+</div>
+
+## 起步 {{ anchor: false }}
+
+你需要首先联系[实验室管理员](#)，然后获取你的专属账户密码以及端口。接下来你要独立[部署你自己的实验环境](#) 。你可以在左边的[资料](#)列表中找到你需要的部署攻略。{{ className: 'lead' }}
+
+<div className="not-prose">
+  <Button href="/quickstart" variant="text" arrow="right">
+    <>获取你的账户和口令</>
+  </Button>
+</div>
+
+<Guides />
+
+<Resources />

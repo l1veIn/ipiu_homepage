@@ -1,0 +1,68 @@
+export const metadata = {
+  title: '快速开始',
+  description:
+    'This guide will get you all set up and ready to use the Protocol API. We’ll cover how to get started an API client and how to make your first API request.',
+}
+
+# 快速开始
+
+本指南将为您设置并准备好使用组内算力资源。我们将介绍如何开始使用我们的服务器和显卡，以及如何在服务器上搭建您的第一个Python环境。我们还将帮助您研究下一步的发展方向，以充分调用显卡算力，完成您的实验目标。 {{ className: 'lead' }}
+
+<Note>
+  在开始之前，请确保您已经选择好了自己的研究方向，查阅了足够多的论文或者视频，并且尝试在自己的设备上完成了初步的代码运行。 [FAQ &raquo; 如何选择自己的研究方向](#).
+</Note>
+
+## 登录服务器
+
+首先，您需要登录到服务器。请使用以下命令登录到服务器：
+
+<CodeGroup>
+
+```bash {{ title: 'Windows' }}
+# CTRL+R打开运行，输入cmd并打开
+ssh -p [port_number] [username]@xdamr.icu
+```
+
+```bash {{ title: 'Linux' }}
+# 打开Linux自带终端并输入
+ssh -p [port_number] [username]@xdamr.icu
+```
+
+```bash {{ title: 'Mac' }}
+# 打开Mac自带终端并输入
+ssh -p [port_number] [username]@xdamr.icu
+```
+
+</CodeGroup>
+
+<div className="not-prose">
+  <Button href="/sdks" variant="text" arrow="right">
+    <>SSH无法使用？</>
+  </Button>
+</div>
+
+## 安装Python环境
+接下来，您需要安装并配置python环境。请使用以下命令安装python：
+
+<CodeGroup>
+
+```bash {{ title: 'Linux' }}
+balabalbalabalbal
+```
+
+
+</CodeGroup>
+
+<div className="not-prose">
+  <Button href="/conversations" variant="text" arrow="right">
+    <>安装中遇到问题？</>
+  </Button>
+</div>
+
+## What's next?
+
+很好，接下来为了方便你的操作和开发，你需要部署远程访问，以便你随时能在自己的设备上控制服务器运行代码。
+
+- [部署jupyter notebook远程访问](#)
+- [通过VSCode远程访问](/conversations)
+- [通过Pycharm远程访问](/errors)
